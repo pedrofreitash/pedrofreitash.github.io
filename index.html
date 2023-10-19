@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portifolio</title>
+</head>
+<body>
+    <div class="container">
+        <nav><!--Crio a navbar com os links de navegação interna-->
+            <div class="nome">
+                <span>PEDRO</span>
+            </div>
+            <ul>
+                <li class="item oculto"><a href="#1">Sobre</a></li>
+                <li class="item oculto"><a href="#2">Formação</a></li>
+                <li class="item oculto"><a href="#3">Projetos</a></li>
+                <li class="item oculto"><a href="#4">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main><!--Crio a parte "Sobre" do site dentro do modulo "main"-->
+        <div class="container">
+            <div class="wrapper">
+                <span class="titulo" id="1">
+                    Sobre
+                </span>
+                <p>
+                    Meu nome é Pedro Henrique de Freitas e sou um desenvolvedor apaixonado por tecnologia. Venho buscando evoluir constantemente em minhas habilidades e conhecimentos, e atualmente estou focado na área de dados. Além disso, também possuo experiência em desenvolvimento web, mobile e desktop.
+                    <br>Apresento, a seguir, minhas hard skills: HTML, CSS, JavaScript, Python, SQL, C#, Java, PHP e Delphi.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!--Informo minhas formações-->
+    <div class="container">
+        <div class="wrapper">
+            <span class="titulo" id="2">
+                Formação
+            </span>
+            <p>
+                Técnico em Desenvolvimento de Sistemas pela ETEC Prefeito ALberto Feres.
+                <br>Cursando Análise e Desenvolvimento de Sistemas pela Uninter.
+            </p>
+        </div>
+    </div>
+    <!-- Apresento meus projetos no GitHub -->
+    <div class="container">
+        <div class="wrapper">
+            <span class="titulo" id="3">
+                Projetos
+            </span>
+            <div class="card">
+                <span>Python</span>
+                <p>
+                    Projeto Feito para praticar habilidades com Python
+                </p>
+                <a href="https://github.com/pedrofreitash/sistema-bancario" target="_blank">Ver Mais</a>
+            </div>
+            <div class="card">
+                <span>Python</span>
+                <p>
+                    Projeto iniciado para praticar habilidades de ETL com Python
+                </p>
+                <a href="https://github.com/pedrofreitash/ETL-study" target="_blank">Ver Mais</a>
+            </div>
+            <div class="card">
+                <span>Power BI</span>
+                <p>
+                    Projeto feito para iniciar estudos de Power BI
+                </p>
+                <a href="https://github.com/pedrofreitash/lab-1DSA" target="_blank">Ver Mais</a>
+            </div>
+            <div class="card">
+                <span>Power BI</span>
+                <p>
+                    Projeto feito para praticar o uso da ferramenta Power BI
+                </p>
+                <a href="https://github.com/pedrofreitash/lab-2DSA" target="_blank">Ver Mais</a>
+            </div>
+            <div class="card">
+                <span>Kotlin</span>
+                <p>
+                    Projeto feito para iniciar estudos em desenvolvimento mobile
+                </p>
+                <a href="https://github.com/pedrofreitash/TurnOnFlash" target="_blank">Ver Mais</a>
+            </div>
+        </div>
+    </div>
+
+    <!--Crio o meio de contato -->
+    <div class="container">
+        <div class="wrapper">
+            <span class="titulo" id="4">
+                Contato
+            </span>
+            <div class="form">
+                <form>
+                    <div class="row">
+                        <label for="nome">nome</label><br>
+                        <input name="nome" type="text"><br>
+                        <label for="email">E-mail</label><br>
+                        <input name="email" type="text">
+                    </div>
+                    <div class="row">
+                        <label for="mensgaem">Mensagem</label><br>
+                        <textarea name="Mensagem" cols="70" rows="8"></textarea>
+                    </div>                    
+                    <div class="row">    
+                        <input class="btn" type="button" value="Enviar">
+                    </div>                
+                    </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
